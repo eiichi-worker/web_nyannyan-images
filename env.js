@@ -2,12 +2,12 @@
 // console.log(location.host);
 // console.log(location.pathname);
 // console.log(location.search);
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var domTitle = document.getElementById("title");
     var envName = ""
     var urlEnvSeparator = ""
     var urlPath = location.pathname;
-    var jtagBase1 = "kitchen.juicer.cc/?color=TkFSu5CF1WA=";
+    var jtagBase1 = "kitchen.juicer.cc/?color=IvQAlCu9MHk=";
     switch (true) {
         case /develop3/.test(urlPath):
             envName = "develop3";

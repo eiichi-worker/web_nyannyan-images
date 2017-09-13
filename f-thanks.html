@@ -1,0 +1,14 @@
+<script>
+    var arg = new Object;
+    var pair = location.search.substring(1).split('&');
+    for (var i = 0; pair[i]; i++) {
+        var kv = pair[i].split('=');
+        arg[decodeURIComponent(kv[0])] = decodeURIComponent(kv[1]);
+    }
+    console.log(arg);
+
+    // アドレスバーからパラメータ削除
+    if (history.repalceState) {
+        history.repalceState(null, null, location.pathname)
+    }
+</script>
