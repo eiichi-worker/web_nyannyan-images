@@ -45,10 +45,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     insertScript("//" + envName + urlEnvSeparator + jtagBase1, true);
     
-    // TODO 一時的にStaging2のタグを本番に埋める
-     if (envName == "") {
-        insertScript("//staging2-kitchen.juicer.cc/?color=IvQAlCu9MHk=", true);
-    }
+    // 一時的にStaging2のタグを本番に埋める
+//    if (envName == "") {
+//        insertScript("//staging2-kitchen.juicer.cc/?color=IvQAlCu9MHk=", true);
+//    }
 
 
     function insertScript(scriptSrc, isAsync) {
