@@ -45,10 +45,9 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     insertScript("//" + envName + urlEnvSeparator + jtagBase1, true);
     
-    // 一時的にStaging2のタグを本番に埋める
-//    if (envName == "") {
-//        insertScript("//staging2-kitchen.juicer.cc/?color=IvQAlCu9MHk=", true);
-//    }
+    
+    // 一時的に開発用の新タグを埋める
+    insertScript("//develop-new.kitchen.juicer.cc/?color=IvQAlCu9MHk=", true);
 
 
     function insertScript(scriptSrc, isAsync) {
