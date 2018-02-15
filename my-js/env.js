@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     // 一時的に開発用の新タグを埋める
-    insertScript("//develop-new.kitchen.juicer.cc/?color=IvQAlCu9MHk=", true);
+    // insertScript("//develop-new.kitchen.juicer.cc/?color=IvQAlCu9MHk=", true);
 
 
     function insertScript(scriptSrc, isAsync) {
