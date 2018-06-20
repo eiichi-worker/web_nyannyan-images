@@ -5,3 +5,4 @@ Disallow: /develop3/
 Disallow: /staging/
 Disallow: /staging2/
 Disallow: /staging3/
+Disallow: /a_test/
